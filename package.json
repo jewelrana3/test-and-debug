@@ -6,11 +6,12 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "test":"vitest"
+    "test": "vitest"
   },
   "dependencies": {
     "@testing-library/react": "^16.3.0",
     "@vitejs/plugin-react": "^5.0.4",
+    "jsdom": "^27.0.1",
     "next": "15.5.6",
     "react": "19.1.0",
     "react-dom": "19.1.0",
@@ -23,6 +24,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^4.0.3"
   }
 }
