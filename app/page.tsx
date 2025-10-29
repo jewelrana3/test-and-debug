@@ -1,9 +1,9 @@
 
 
-export default function Home() {
+export default function Page() {
   return (
   <ul>
-    <li>Home</li>
+    <li>home juyel</li>
     <li>About</li>
   </ul>
   );
