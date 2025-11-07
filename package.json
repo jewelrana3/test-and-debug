@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "test": "vitest"
+    "test": "vitest",
+    "e2e":"npx playwright test"
   },
   "dependencies": {
     "@testing-library/react": "^16.3.0",
